@@ -10,13 +10,14 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
 }
 
 
 /* ---- typography ---- */
 
 body {
-  color: #111;
+  color: #1a1a1a;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 147%;
@@ -93,4 +94,9 @@ section.testimonials {
 
 section.testimonials .button {
   margin-bottom: 10px;
+}
+
+canvas {
+  border: 1px solid lightgray;
+  background-color: white;
 }
